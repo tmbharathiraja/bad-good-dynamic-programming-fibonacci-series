@@ -1,0 +1,355 @@
+|--bad_fib(10)
+|  |--bad_fib(8)
+|  |  |--bad_fib(6)
+|  |  |  |--bad_fib(4)
+|  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |-- return 1
+|  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |-- return 2
+|  |  |  |  |-- return 3
+|  |  |  |--bad_fib(5)
+|  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |-- return 2
+|  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |-- return 3
+|  |  |  |  |-- return 5
+|  |  |  |-- return 8
+|  |  |--bad_fib(7)
+|  |  |  |--bad_fib(5)
+|  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |-- return 2
+|  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |-- return 3
+|  |  |  |  |-- return 5
+|  |  |  |--bad_fib(6)
+|  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |-- return 3
+|  |  |  |  |--bad_fib(5)
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |  |-- return 3
+|  |  |  |  |  |-- return 5
+|  |  |  |  |-- return 8
+|  |  |  |-- return 13
+|  |  |-- return 21
+|  |--bad_fib(9)
+|  |  |--bad_fib(7)
+|  |  |  |--bad_fib(5)
+|  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |-- return 2
+|  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |-- return 3
+|  |  |  |  |-- return 5
+|  |  |  |--bad_fib(6)
+|  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |-- return 3
+|  |  |  |  |--bad_fib(5)
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |  |-- return 3
+|  |  |  |  |  |-- return 5
+|  |  |  |  |-- return 8
+|  |  |  |-- return 13
+|  |  |--bad_fib(8)
+|  |  |  |--bad_fib(6)
+|  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |-- return 3
+|  |  |  |  |--bad_fib(5)
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |  |-- return 3
+|  |  |  |  |  |-- return 5
+|  |  |  |  |-- return 8
+|  |  |  |--bad_fib(7)
+|  |  |  |  |--bad_fib(5)
+|  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |  |-- return 3
+|  |  |  |  |  |-- return 5
+|  |  |  |  |--bad_fib(6)
+|  |  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |  |-- return 3
+|  |  |  |  |  |--bad_fib(5)
+|  |  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |  |--bad_fib(4)
+|  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |--bad_fib(3)
+|  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |--bad_fib(2)
+|  |  |  |  |  |  |  |  |  |--bad_fib(0)
+|  |  |  |  |  |  |  |  |  |  |-- return 0
+|  |  |  |  |  |  |  |  |  |--bad_fib(1)
+|  |  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |  |-- return 1
+|  |  |  |  |  |  |  |  |-- return 2
+|  |  |  |  |  |  |  |-- return 3
+|  |  |  |  |  |  |-- return 5
+|  |  |  |  |  |-- return 8
+|  |  |  |  |-- return 13
+|  |  |  |-- return 21
+|  |  |-- return 34
+|  |-- return 55
+55
