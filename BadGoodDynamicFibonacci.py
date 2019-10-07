@@ -8,7 +8,7 @@
 # In[161]:
 
 
-import timeit                #timeit for timecomplexity calculation
+import timeit                #timeit for time complexity calculation
 from functools import wraps  #wraps for recursion trace
 
 def trace(func):
@@ -18,7 +18,7 @@ def trace(func):
     
     @wraps(func)
     def trace_func(*args, **kwargs):
-        # Print recursion invokation with indentation based on recursion_depth
+        # Print recursion invocation with indentation based on recursion_depth
         print(f"{separator * trace.recursion_depth}|--{func_name}({'. '.join(map(str, args))})") 
         trace.recursion_depth += 1 #keep track of recursion depth
         result = func(*args, **kwargs) #invoke new function call
@@ -86,7 +86,7 @@ def dynamic_fib(n, memo = {}):
 #calculate time complexity
 print("Bad Fib for 10:    ", timeit.timeit(setup = "from __main__ import bad_fib", stmt = "bad_fib(10)", number = 10000))
 print("Good Fib for 10:   ", timeit.timeit(setup = "from __main__ import good_fib", stmt = "good_fib(10)", number = 10000))
-print("Dynamic Fib for 10:", timeit.timeit(setup = "from __main__ import dynamic_fib", stmt = "dynamic_fib(10)", number = 10000))
+print("Dynamic Fib for 10:", timeit.timeit(setup = "from __main__ import dynamic_fib", stmt = "dynamic_fib(10, {})", number = 10000))
 
 
 # In[166]:
