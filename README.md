@@ -9,5 +9,4 @@ Fibonacci numbers: The Fibonacci series numbers start with 0, 1 and every next n
 2. Good Fibonacci series generator, this method has O (n) time complexity using tuple to avoid duplicate calculations.
 3. Dynamic Programming method, this method has O (n) time complexity with O (n) space complexity using dictionary to avoid duplicate calculations.
 4. Finally I print the trace for each of these methods for given n to visualize the recursion.
-![GitHub Logo](/images/complexity_comparisons.png)
-Format: ![Alt Text](url)
+![Alt text](relative/path/to/complexity_comparisons.png?raw=true "Complexity Comparison")
