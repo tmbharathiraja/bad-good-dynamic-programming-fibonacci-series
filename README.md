@@ -9,10 +9,9 @@ Mathematically
 
 F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub> and F<sub>0</sub> = 0, F<sub>1</sub> = 1
 
-1. General Recursive method with duplicate calculations, this method has O(2<sup>n</sup>) time complexity and O(1) sapce complexity.
-3. Dynamic Programming method using dictionary to avoid duplicate calculations, this method has O(n) time complexity and O(n) space complexity 
-3. Good Fibonacci method with tuple to avoid duplicate calculations, this method has O(n) time complexity and O(1) sapce complexity.
-4. Finally I print the trace for each of these methods for given n to visualize the recursion.
+1. Bad Fibonacci method is a general recursive method with duplicate calculations, this method has O(2<sup>n</sup>) time complexity and O(1) sapce complexity.
+3. Dynamic Programming method uses dictionary to avoid duplicate calculations, this method has O(n) time complexity and O(n) space complexity 
+3. Good Fibonacci method uses tuple to avoid duplicate calculations, this method has O(n) time complexity and O(1) sapce complexity.
 
 ## Complexity Comparison
 
