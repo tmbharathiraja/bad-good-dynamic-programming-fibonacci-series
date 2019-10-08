@@ -15,7 +15,7 @@ F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub> and F<sub>0</sub> = 0, F<sub>1
 
 ## Complexity Comparison
 
-![complexity_comparisons](https://user-images.githubusercontent.com/56274068/66357480-ef559000-e923-11e9-8216-7d4bf0245b54.png)
+![complexity_comparisons](https://user-images.githubusercontent.com/56274068/66413629-9a119100-e9ac-11e9-98ce-708393a561a7.png)
 
 ## Good Fib Recusrion Trace for n = 10
 The duplicate calculations are avoided using tuple as return value and calculating only n-1 in the recusrion.
@@ -29,6 +29,8 @@ The duplicate calculations are avoided using dictionary to keep track of previou
 
 ## Bad Fib Recursion Trace for n = 10
 This function wastes time in calculating previous calculated lower order terms again and again. For example bad_fib(8) twice one for bad_fib(10) and other for bad_fib(9). Likewise bad_fib(1) called 55 times, bad_fib(2) called 34 times, bad_fib(3) called 21 times, bad_fib(4) called 13 times, bad_fib(5) called 8 times, bad_fib(6) called 5 times, bad_fib(7) called 3 times.
-![bad_fib_trace](https://user-images.githubusercontent.com/56274068/66357582-3c396680-e924-11e9-8e17-c6fdf581f642.png)
+
+![bad_fib_trace](https://user-images.githubusercontent.com/56274068/66413786-ea88ee80-e9ac-11e9-85c1-17159a4d620b.png)
+
 
 
